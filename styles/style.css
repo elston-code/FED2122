@@ -9,20 +9,24 @@
 
 body {
   background-color: var(--main-color);
-  background-image: linear-gradient(black, #abc2ae);
+  /* background-image: linear-gradient(black, #abc2ae); */
   background-repeat: no-repeat;
 }
 
 header nav {
   display: flex;
+  position: absolute;
 }
 
 header nav :nth-child(1) {
   width: 2rem;
   height: 2rem;
   margin: 15px;
+  position: absolute;
 }
 
 header nav :nth-child(2) {
   margin-left: 5px;
+  width: 40%;
+  position: relative;
 }
