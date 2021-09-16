@@ -41,11 +41,11 @@ link naar de website die je gaat namaken óf de naam/omschrijving van je eigen o
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Five Brothers Fat 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/FireShot Capture 005 - Five Brothers Fat - www.fivebrothersfat.nl.png" alt="eerstescreenshot">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/FireShot Capture 006 - Our Family - Five Brothers Fat - www.fivebrothersfat.nl.png" alt="tweedescreenshot">
  
 </details>
 

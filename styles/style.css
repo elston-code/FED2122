@@ -7,6 +7,10 @@
   --main-color:#abc2ae;
 }
 
+
+
+
+
 body {
   background-color: var(--main-color);
   /* background-image: linear-gradient(black, #abc2ae); */
