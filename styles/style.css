@@ -34,3 +34,8 @@ header nav :nth-child(2) {
   position: relative;
   text-align: center;
 }
+
+ul {
+  display: flex;
+  flex-wrap: nowrap;
+} 
