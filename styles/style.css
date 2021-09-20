@@ -30,9 +30,12 @@ header nav :nth-child(1) {
   position: absolute;
   left:0;
   top: 0;
+  background-color: transparent;
+  border: none;
 }
 
 header nav :nth-child(2) {
+  margin-top: 15px;
   margin-left: 5px;
   width: 40%;
   position: relative;
@@ -42,4 +45,16 @@ header nav :nth-child(2) {
 ul {
   display: flex;
   flex-wrap: nowrap;
+  overflow-x: scroll;
 } 
+
+ul li {
+  width: 90%;
+  height: 100%;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+ul li img {
+  height: 500px;
+}
