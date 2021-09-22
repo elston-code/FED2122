@@ -7,6 +7,9 @@
 
 :root {
   --main-color:#abc2ae;
+  --secondaryColor: #0f3935;
+  --secondaryAltColor: #eedfc0;
+  --tertiaryColor: #f27417;
 }
 
 
@@ -17,6 +20,11 @@ body {
   background-color: var(--main-color);
   /* background-image: linear-gradient(black, #abc2ae); */
   background-repeat: no-repeat;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 header nav {
@@ -46,54 +54,82 @@ header nav :nth-child(2) {
   text-align: center;
 }
 
-ul {
+main>ul {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
   margin-bottom: 60px;
   margin-top: 30px;
-  margin-left: 20px;
   margin-right: 20px;
+  margin-left: 20px;
+  list-style: none;
+  padding: 0;
+  scroll-snap-type: x mandatory;
 } 
 
-ul li {
-  height: 450px;
-  width: 300px;
-  margin-top: 20px;
-  list-style-type: none;
+main > ul li{
+  width:calc(100vw - 40px) ;
+  flex-shrink: 0;
+  scroll-snap-align: center;
 }
 
-ul li img {
+
+section ul:first-of-type li {
+  height: 370px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+
+}
+
+main ul:first-of-type li img {
   height: 100%;
   width: auto;
 }
 
-section {
+section ul li {
   display: flex;
   flex-direction: column;
   color: white;
 }
 
-section section {
+section ul li a {
   justify-content: center;
   align-items: center;
-  height: 350px;
-  background-size: cover;
+  text-decoration: none;
 }
 
-section section:nth-of-type(1) {
-  background-image: url("/images/haarlemachtergrond.jpeg");
+section ul li:nth-of-type(1) {
+  background-image: url("../images/haarlemachtergrond.jpeg");
+  background-size: cover;
   
 }
 
-section section:nth-of-type(2) {
-  background-image: url("/images/westachtergrond.jpeg");
+section ul li:nth-of-type(2) {
+  background-image: url("../images/westachtergrond.jpeg");
+  background-size: cover;
 }
 
-section section:nth-of-type(3) {
-  background-image: url("/images/oostachtergrond.jpeg");
+section ul li:nth-of-type(3) {
+  background-image: url("../images/oostachtergrond.jpeg");
+  background-size: cover;
 }
 
-section section:nth-of-type(4) {
-  background-image: url("/images/zuidachtergrond.jpeg");
+section ul li:nth-of-type(4) {
+  background-image: url("../images/zuidachtergrond.jpeg");
+  background-size: cover;
+}
+
+section ul li a h2 {
+  color: white;
+  font-size: 40px;
+  
+}
+
+main section:nth-of-type(2) {
+  text-align: center;
+}
+
+main section:nth-of-type(2) h2 {
+  color: var(--secondaryColor);
 }
