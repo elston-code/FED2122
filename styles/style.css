@@ -73,6 +73,22 @@ header nav :nth-child(2) {
 }
 
 
+/********************/
+/* Menu  */
+/********************/
+
+header section {
+  position: absolute;
+  width: 0;
+  left: 0;
+
+}
+
+header ul {
+
+}
+
+
 
 /********************/
 /* Eerste carrousel */
@@ -313,4 +329,65 @@ footer>img {
   top: -200px;
   right: -80px;
   z-index: -1;
+}
+
+
+/********************/
+/* Pagina 2 */
+/********************/
+
+#pagina2 h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-family: myFirstFont;
+  font-size: 4em;
+}
+
+#pagina2 main section{
+  color: white;
+  background-color: var(--secondaryColor);
+  padding: 1.5em;
+}
+
+#pagina2 main section h2 {
+    font-size: 12px;
+    margin: 1em 0;
+    text-transform: uppercase;
+    letter-spacing: .35em;
+}
+
+#pagina2 main section h3 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 1em;
+
+}
+
+#pagina2 main section p {
+  font-size: 20px;
+}
+
+#pagina2 main img {
+  height: 20em;
+}
+
+#pagina2 main section:nth-of-type(2) {
+  background-color: var(--main-color);
+}
+
+#pagina2 main section:nth-of-type(2) p {
+  color: white;
+  text-align: left;
+  padding: 3px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/********************/
+/* Pagina 2 dinner en drinks */
+/********************/
+
+#pagina2 main section:nth-of-type(3) button:nth-of-type(1){
+  background-image: url("../images/octopus.jpeg");
 }
