@@ -45,7 +45,7 @@ Five Brothers Fat
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/schermscreenshot.png" alt="tweedescreenshot">
+<img src="images/scherm2screenshot.png" alt="scherm2screenshot">
  
 </details>
 
