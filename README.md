@@ -45,7 +45,7 @@ Five Brothers Fat
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/FireShot Capture 006 - Our Family - Five Brothers Fat - www.fivebrothersfat.nl.png" alt="tweedescreenshot">
+<img src="images/schermscreenshot.png" alt="tweedescreenshot">
  
 </details>
 
