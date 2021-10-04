@@ -215,18 +215,18 @@ section ul li:nth-of-type(4) {
 /* shop */
 /********************/
 
-main section:nth-of-type(2) {
+main>section:nth-of-type(2) {
   text-align: center;
 }
 
-main section:nth-of-type(2) h2 {
+main>section:nth-of-type(2) h2 {
   color: var(--secondaryColor);
   font-size: 4em;
   margin-top: 17px;
   font-family: myFirstFont;
 }
 
-main section:nth-of-type(2) p {
+main>section:nth-of-type(2) p {
   color: var(--secondaryColor);
   text-align: center;
   margin-right: 0;
@@ -236,7 +236,7 @@ main section:nth-of-type(2) p {
   font-weight: 500;
 }
 
-main section:nth-of-type(2) button {
+main> section:nth-of-type(2) button {
   background-color: var(--tertiaryColor);
   color: white;
   font-size: 1em;
@@ -251,7 +251,7 @@ main section:nth-of-type(2) button {
 /* driepersonenfoto */
 /********************/
 
-main img {
+main> img {
   height: 25em;
   object-fit: cover;
 }
@@ -260,7 +260,7 @@ main img {
 /* grid */
 /********************/
 
-main section:nth-of-type(3) {
+main> section:nth-of-type(3) {
   display: grid;
   grid-template-columns: 8em 8em 8em;
   grid-gap: 10px;
@@ -268,7 +268,7 @@ main section:nth-of-type(3) {
   margin: 10px;
 } 
 
-main section:nth-of-type(3) img {
+main> section:nth-of-type(3) img {
   height: 125px;
   width: 125px;
   object-fit: cover;
@@ -383,27 +383,27 @@ footer>img {
   font-size: 4em;
 }
 
-#pagina2 main section{
+#pagina2 main>section{
   color: white;
   background-color: var(--secondaryColor);
   padding: 1.5em;
 }
 
-#pagina2 main section h2 {
+#pagina2 main>section h2 {
     font-size: 12px;
     margin: 1em 0;
     text-transform: uppercase;
     letter-spacing: .35em;
 }
 
-#pagina2 main section h3 {
+#pagina2 main>section h3 {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 1em;
 
 }
 
-#pagina2 main section p {
+#pagina2 main>section p {
   font-size: 20px;
 }
 
@@ -411,11 +411,11 @@ footer>img {
   height: 20em;
 }
 
-#pagina2 main section:nth-of-type(2) {
+#pagina2 main>section:nth-of-type(2) {
   background-color: transparent;
 }
 
-#pagina2 main section:nth-of-type(2) p {
+#pagina2 main>section:nth-of-type(2) p {
   color: white;
   text-align: left;
   padding: 3px;
@@ -426,4 +426,66 @@ footer>img {
 /********************/
 /* Pagina 2 dinner en drinks */
 /********************/
+
+#pagina2 main>section:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  gap: 2em;
+  align-items: center;
+  position: relative;
+}
+
+#pagina2 main>section:nth-of-type(3) section {
+  width: 100%;
+  position: relative;
+  height: 33em;
+  display: grid;
+}
+
+#pagina2 main>section:nth-of-type(3) section img {
+  width: 100%;
+  height: 100%;
+
+}
+
+#pagina2 main>section:nth-of-type(3) section a {
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+  justify-self: center;
+  background-color: var(--tertiaryColor);
+  color: white;
+  margin: 1em;
+}
+
+
+#pagina2 main>section:nth-of-type(4) {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  text-align: left;
+}
+
+#pagina2 main>section:nth-of-type(4) p {
+  text-align: left;
+  margin-bottom: 1em;
+  opacity: .5;
+  font-size: 32px;
+  padding: 0;
+}
+
+#pagina2 main>section:nth-of-type(4) h1 {
+  text-align: left;
+  
+}
+
+#pagina2 main>section:nth-of-type(4) h2 {
+  text-align: left;
+  margin-bottom: 1em;
+  font-family: none;
+  font-size: 15px;
+}
+
+
 
