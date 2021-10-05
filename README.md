@@ -235,9 +235,15 @@ Minder onnodige elementen gebruiken in de documenten en de css met comments verd
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Html en css gingen wel makkelijker dan ik dacht, alhoewel ik wel veel moeite had met het gebruiken van nth-type. Ik had wel moeite met het javascript oppakken, want ik codeer niet consistent. De carrousel en de menu waren moeilijker dan ik dacht en hadden ook veel tijd gekost. 
+
+
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+
+<img src="images/week5screenshot.png" alt="week5screenshot">
+<img src="images/week5screenshot2.png" alt="week5screenshot2">
 
 </details>
 
