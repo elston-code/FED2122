@@ -203,24 +203,23 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Ik was heel slordig aan het coderen. Er wordt daarmee bedoelt dat ik weinig comments had in mijn css en ik gebruikte onnodige button elementen. Ook had ik moeite met de menu balk, maar dat is na een lange tijd gelukkig gelukt.
+
+Het stylen van de pagina ging wel soepel, alleen had ik soms best wat moeite met nth-of-type te gebruiken soms.
+
+<img src="images/week4screenshot.png" alt="week4screenshot">
+<img src="images/week4screenshot2.png" alt="week4screenshot2">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Elston : zou graag ondersteuning willen hebben voor de javascript en wilt wat meer weten over keyframes.
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Minder onnodige elementen gebruiken in de documenten en de css met comments verdelen.
+
 
 </details>
 
