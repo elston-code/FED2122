@@ -16,6 +16,30 @@
   --tertiaryColor: #f27417;
 }
 
+html[data-theme='light'] {
+  --main-color:#abc2ae;
+  --secondaryColor: #0f3935;
+  --secondaryAltColor: #eedfc0;
+  --tertiaryColor: #f27417;
+}
+
+html[data-theme='dark'] {
+  --main-color:#3f4941;
+  --secondaryColor: #061615;
+  --secondaryAltColor: #867d6a;
+  --tertiaryColor: #96460e;
+}
+
+/******************************/
+/* dark theme  */
+/******************************/
+
+[data-theme='light'] .d-block-light,
+[data-theme='dark'] .d-block-dark {
+    display: block !important;
+}
+
+
 /******************************/
 /* Fonts  */
 /******************************/
@@ -50,9 +74,14 @@ header {
 
 }
 
+header nav:nth-of-type(1) a img {
+  width: 2em;
+  margin-left: 2em;
+}
+
 header nav:nth-child(1) {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 3fr 1fr;
   align-items: center;
   padding: 1em;
 }
@@ -66,6 +95,7 @@ border: none;
 
 header nav:nth-of-type(1)>img {
   width: 10em;
+  justify-self: center;
 }
 
 header nav:nth-child(2) {

@@ -155,17 +155,28 @@ Student 3 vraagt zich af hoe de carrousel automatisch gaat kunnen lopen.
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
+1 Afbeeldingen zijn niet klikbaar.
+2 Sommige zinnen worden afgekapt.
+3 Er kunnen misschien wat meer feedback komen van de states.
+
+#### Afbeeldingen
 Hier korte omschrijving (met indien nodig een afbeelding)
+<img src="images/bevindingen1.png" alt="bevindingen1">
+
+De afbeeldingen bovenaan de pagina zijn niet klikbaar. 
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
+De afbeeldingen een link te geven of als je op de afbeelding klikt feedback geven dat het niet klikbaar is.
 
-#### Titel tweede bevinding. 
+#### Zinnen afgekapt
 Hier korte omschrijving (met indien nodig een afbeelding)
+
+De screenreader kapt sommige zinnen af tijdens het lezen.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
+Ik heb geen flauw idee hoe dit opgelost kan worden.
 
 #### Titel volgende bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
@@ -242,8 +253,14 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://codepen.io/shooft/pen/oNzGJMM voor de carrousel
+2. <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+3. <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+4. https://lukelowrey.com/css-variable-theme-switcher/
+
+5. https://www.videvo.net/search/birds/clip_type/royalty-free-sound-effects/freeclips/yes/?is_ajax=true
 
 </details>
