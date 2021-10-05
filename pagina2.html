@@ -74,7 +74,7 @@
         <h1>Haarlem</h1>
 		
         <div id="bolletjesAndAutoScroll" class="caroCarrousel" aria-label="Voorbeeld met bolletjes en auto-scroll na bepaalde tijd" tabIndex="-1">
-            <!-- de id kun je zelf een naam geven en geef je mee in de js -->
+            
             <ul>
               <li id="element1"><img src="images/pagina2afbeelding1.jpeg" alt="pagina2afbeelding1" /></li>
               <li id="element2"><img src="images/pagina2afbeelding2.jpeg" alt="pagina2afbeelding2" /></li>
@@ -210,7 +210,21 @@
 				</li>
 			</ul>
 			
-		</nav>
+        </nav>
+        <form action=>
+			<label for="fname">Voornaam</label>
+			<input type="text" name="firstname" placeholder="Jouw voornaam">
+		
+			<label for="lname">Achternaam</label>
+			<input type="text" name="lastname" placeholder="Jouw achternaam">
+		
+			
+		
+			<label for="subject">Feedback</label>
+			<textarea name="subject" placeholder="Schrijf hier je feedback..." style="height:200px"></textarea>
+		
+			<input type="submit" value="Submit">
+		  </form>
 		<img src="images/bottle.png" alt="bottle">
 	</footer>
     <script src="scripts/script.js"></script>
