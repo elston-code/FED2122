@@ -81,24 +81,26 @@ hier de naam van de pagina
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Ik heb een goede start kunnen maken aan de html en een beetje css. Ook heb ik bijna alle materialen zoals images al klaarstaan.
+
+<img src="images/week1screenshot.png" alt="week1">
+
+<img src="images/week1screenshotcode.png" alt="week1screenshotcode">
+
+
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Elston : Zou wat meer willen weten over hoe je en font-family die je hebt gedownload kan toepassen op de website.
+
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Het is verstandig dat eerst de html codes worden gemaakt voordat er aan de css word begonnen.
+
 
 </details>
 
@@ -114,6 +116,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Ik heb de afbeelding in een soort carrousel kunnen stoppen. Met behulp van Sanne gaat de slides als je ze op de helft zet automatisch naar de volgende.
+
+Ik moet nog wel kijken hoe ik die carrousel automatisch kan laten sliden.
+
+<img src="images/week2screenshot.png" alt="week2screenshot">
+
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -128,10 +136,10 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+
+Student 1 vraagt zich af wanneer je het beste grid of flex kunt gebruiken.
+Student 2 vraagt zich af wat de beste manier is om grid te gebruiken in een layout.
+Student 3 vraagt zich af hoe de carrousel automatisch gaat kunnen lopen.
 
 </details>
 
