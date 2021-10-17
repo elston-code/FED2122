@@ -17,20 +17,23 @@
 	<header>
 		<nav>
 			<button>
-				<img src="images/pngfind.com-hamburger-menu-icon-png-1639503.png" alt="menu">
+				<img src="images/pngfind.com-hamburger-menu-icon-png-1639503.png" alt="menuicon">
 			</button>
             <a href="index.html">
                     
-                <img src="images/logofive.svg" alt="logofive">
+                <img src="images/logofive.svg" alt="logofivebrothers">
             </a>
 			<a href="#"><img src="images/moon.png" id="theme-toggle" alt="darkmodeicon"></a>
 		</nav>
 		
 		
 		<nav>
-			<section>
-				<img src="images/fivelogo.svg" alt="logofive">
-				<img id="closebutton" src="images/wrong.svg" alt="wrong">
+			<section aria-label="">
+				<img src="images/fivelogo.svg" alt="logofivebrothers">
+				<button>
+
+					<img id="closebutton" src="images/wrong.svg" alt="closeicon">
+				</button>
 			</section>
 			<h2>Locaties</h2>
 			<ul>
@@ -65,8 +68,8 @@
 			</ul>
 			<section>
 				
-				<img src="images/instagram.png" alt="instagram">
-				<img src="images/facebook-7-24.png" alt="facebook">
+				<img src="images/instagram.png" alt="instagramicon">
+				<img src="images/facebook-7-24.png" alt="facebookicon">
 			</section>
 
 		</nav>
@@ -75,9 +78,9 @@
 		<div id="bolletjesAndAutoScroll" class="caroCarrousel" aria-label="Voorbeeld met bolletjes en auto-scroll na bepaalde tijd" tabIndex="-1">
 			
 			<ul>
-			  <li id="element1"><img src="images/afbeelding1.jpeg" alt="afbeelding1" /></li>
-			  <li id="element2"><img src="images/afbeelding2.jpeg" alt="afbeelding2" /></li>
-			  <li id="element3"><img src="images/afbeelding3.jpeg" alt="afbeelding3" /></li>
+			  <li id="element1"><img src="images/afbeelding1.jpeg" alt="afbeelding met drank en eten" /></li>
+			  <li id="element2"><img src="images/afbeelding2.jpeg" alt="afbeelding met gerechten" /></li>
+			  <li id="element3"><img src="images/afbeelding3.jpeg" alt="afbeelding met visgerechten" /></li>
 			</ul>
 			
 			<nav>
@@ -92,7 +95,7 @@
 		  </div>
 
 		
-		<section>
+		<section aria-label="">
 		
 			<ul>
 				<li>
@@ -131,17 +134,18 @@
 			</a>
 			
 		</section>
-		<img src="images/driemensen.jpeg" alt="driemensen">
-		<section>
-			<img src="images/grid1.jpeg" alt="grid1">
-			<img src="images/grid2.jpeg" alt="grid2">
-			<img src="images/grid3.jpeg" alt="grid3">
-			<img src="images/grid4.jpeg" alt="grid4">
-			<img src="images/grid5.jpeg" alt="grid5">
-			<img src="images/grid6.jpeg" alt="grid6">
-			<img src="images/grid7.jpeg" alt="grid7">
-			<img src="images/grid8.jpeg" alt="grid8">
-			<img src="images/grid9.jpeg" alt="grid9">
+		<img src="images/driemensen.jpeg" alt="drie medewerkers">
+		<section aria-label="Proef de sfeer van Five brothers Fat">
+			
+			<img src="images/grid1.jpeg" alt="persoon die eet">
+			<img src="images/grid2.jpeg" alt="persoon dat een cocktail drinkt">
+			<img src="images/grid3.jpeg" alt="de blije chef">
+			<img src="images/grid4.jpeg" alt="een bloody mary cocktail">
+			<img src="images/grid5.jpeg" alt="lekkere tapas">
+			<img src="images/grid6.jpeg" alt="medewerker achter de bar">
+			<img src="images/grid7.jpeg" alt="barmedewerker dat een cocktail genaamd pornstar martini maakt">
+			<img src="images/grid8.jpeg" alt="de pornstar martini van dichtbij">
+			<img src="images/grid9.jpeg" alt="een medewerker die glimlacht">
 		</section>
 		<section>
 			<h2>
@@ -159,7 +163,7 @@
 
 	<footer>
 		<nav>
-			<img src="images/logofive.svg" alt="logofive">
+			<img src="images/logofive.svg" alt="logofivebrothers">
 			
 			<h6>Locaties</h6>
 			<ul>
@@ -211,22 +215,22 @@
 			
 		</nav>
 
-		<form action=>
+		<form action="/index.html">
 			<label for="fname">Voornaam</label>
-			<input type="text" name="firstname" placeholder="Jouw voornaam">
+			<input id="fname" type="text" name="firstname" placeholder="Jouw voornaam">
 		
 			<label for="lname">Achternaam</label>
-			<input type="text" name="lastname" placeholder="Jouw achternaam">
+			<input id="lname" type="text" name="lastname" placeholder="Jouw achternaam">
 		
 			
 		
 			<label for="subject">Feedback</label>
-			<textarea name="subject" placeholder="Schrijf hier je feedback..." style="height:200px"></textarea>
+			<textarea id="subject" name="subject" placeholder="Schrijf hier je feedback..." style="height:200px"></textarea>
 		
-			<input type="submit" value="Submit">
+			<input type="submit" value="Verzenden">
 		  </form>
 
-		<img src="images/bottle.png" alt="bottle">
+		<img src="images/bottle.png" alt="fivebrothers champagnefles">
 	</footer>
 	<script src="scripts/script.js"></script>
 	<script src="scripts/carrousel.js"></script>
