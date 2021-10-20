@@ -74,7 +74,7 @@ window.addEventListener('load', function(){
 
         loadingscreen.classList.add("hide-loadingscreen");
 
-     }, 1000);
+     }, 1100);
 
 })
 
