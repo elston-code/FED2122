@@ -39,6 +39,29 @@ html[data-theme='dark'] {
 }
 
 /******************************/
+/* loadingscreen */
+/******************************/
+
+body > div {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  z-index: 999;
+  transition: 0.4s;
+}
+
+body > div img {
+  height: 100%;
+  width: 100%;
+}
+
+.hide-loadingscreen{
+  opacity: 0;
+  z-index: -99;
+}
+
+/******************************/
 /* dark theme  */
 /******************************/
 

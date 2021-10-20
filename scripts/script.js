@@ -9,6 +9,8 @@ var menu = document.querySelector("header nav:nth-of-type(2)")
 
 var closebtn = document.querySelector("#closebutton")
 
+var loadingscreen = document.querySelector(".loadingscreen")
+
 // console.log(closebtn)
 
 function toggleMenu(){
@@ -59,4 +61,20 @@ toggle.onclick = function() {
     localStorage.setItem('theme', targetTheme);
 };
 
+
+/******************************/
+/* Loading screen */
+/******************************/
+
+window.addEventListener('load', function(){
+
+
+
+    setTimeout(function(){
+
+        loadingscreen.classList.add("hide-loadingscreen");
+
+     }, 1000);
+
+})
 
