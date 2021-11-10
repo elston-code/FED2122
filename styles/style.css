@@ -61,6 +61,13 @@ body > div img {
   z-index: -99;
 }
 
+.loadingscreen {
+  background-image: url(../images/champagneflesopen.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 /******************************/
 /* dark theme  */
 /******************************/
@@ -95,6 +102,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 
 /********************/
 /* Header styling */
@@ -560,14 +568,6 @@ footer>img {
   text-align: left;
 }
 
-#pagina2 main>section:nth-of-type(4) p {
-  text-align: left;
-  margin-bottom: 1em;
-  opacity: .5;
-  font-size: 32px;
-  padding: 0;
-  font-weight: 600;
-}
 
 #pagina2 main>section:nth-of-type(4) h1 {
   text-align: left;
@@ -579,6 +579,15 @@ footer>img {
   margin-bottom: 1em;
   font-family: none;
   font-size: 15px;
+}
+
+#pagina2 main>section:nth-of-type(4) p {
+  text-align: left;
+  margin-bottom: 1em;
+  opacity: .5;
+  font-size: 32px;
+  padding: 0;
+  font-weight: 600;
 }
 
 /********************/
@@ -626,6 +635,10 @@ footer>img {
 /* Pagina 2 join us */
 /********************/
 
+#pagina2 main>section:nth-of-type(4) {
+  height: 45em;
+}
+
 #pagina2 main section:nth-of-type(6) {
   background-color: var(--secondaryColor);
   color: white;
@@ -660,9 +673,6 @@ footer>img {
 
 }
 
-#pagina2 main>section:nth-of-type(4) {
-  height: 45em;
-}
 
 
 /********************/
@@ -711,7 +721,7 @@ input[type=submit]:hover {
 body {
 	display:grid;
 	grid-template-columns: minmax(auto, var(--maxWidth));
-	justify-content:center;
+  justify-content:center;
 }
 
 h1 {
@@ -727,12 +737,10 @@ h1 {
 /******************************/
 
 .caroCarrousel {
-	/* basis waarden die door de hele carrousel gebruikt worden */
-	/* kun je zelf aanpassen */
   --caroCarrouselAutoScrollInterval:4000;
 
   position: relative;
-  overflow: hidden; /* om de linkbuttons te verbergen */
+  overflow: hidden; 
   outline:none;
   padding: 2em;
   height: 500px;
@@ -746,27 +754,17 @@ h1 {
   list-style: none;
   display: flex;
   height: 100%;
-	
-	/* handmatig scrollen is mogelijk */
 	overflow: hidden;
-	
-	/* snappen als er gescrolled wordt - andere helft bij li */
   scroll-snap-type: inline mandatory;
-	/* smooth als met js gescrolled wordt */
 	scroll-behavior: smooth;
-  /* scrollbar zoveel mogelijk verbergen */
-  -webkit-overflow-scrolling: touch; /* voor iOS*/
-  -ms-overflow-style: none; /* voor IE */
-	scrollbar-width: none; /* voor firefox */
-	
-	/* indien het einde of het begin van de pagina bereikt is met scrollen */
-	/* voorkomen dat de pagina gaat scrollen */
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none; 
+	scrollbar-width: none; 
 	overscroll-behavior: contain auto;
 }
 
 .caroCarrousel > ul::-webkit-scrollbar {
-  /* scrollbar zoveel mogelijk verbergen */
-  display: none; /* voor chrome, safari en edge*/
+  display: none; 
 }
 
 
@@ -775,7 +773,6 @@ h1 {
 .caroCarrousel > ul li {
   flex-basis: 100%;
   flex-shrink: 0;
-  /* snappen als er gescrolled wordt - andere helft bij ul */
 	scroll-snap-align:center;
 }
 
@@ -783,7 +780,6 @@ h1 {
 /**********************************/
 /* de carrousel elementen content */
 
-/* de stijlen voor jouw content hier */
 .caroCarrousel > ul li > img {
   display: block;
   width: 100%;

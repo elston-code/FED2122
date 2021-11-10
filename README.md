@@ -15,6 +15,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
+
 ### Auteur:
 Elston Barrow
 
@@ -148,10 +149,12 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 1 Afbeeldingen zijn niet klikbaar.
 2 Sommige zinnen worden afgekapt.
-3 Er kunnen misschien wat meer feedback komen van de states.
+3 Er kan misschien wat meer feedback komen van de states.
+4 De gebruikers kunnen sommige afbeeldingen niet begrijpen met de screenreader. 
+
 
 #### Afbeeldingen
-Hier korte omschrijving (met indien nodig een afbeelding)
+
 <img src="images/bevindingen1.png" alt="bevindingen1">
 
 De afbeeldingen bovenaan de pagina zijn niet klikbaar. 
@@ -160,6 +163,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 De afbeeldingen een link te geven of als je op de afbeelding klikt feedback geven dat het niet klikbaar is.
 
+
 #### Zinnen afgekapt
 Hier korte omschrijving (met indien nodig een afbeelding)
 
@@ -167,7 +171,7 @@ De screenreader kapt sommige zinnen af tijdens het lezen.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
-Ik heb geen flauw idee hoe dit opgelost kan worden.
+Ik heb geen idee hoe dit opgelost kan worden.
 
 #### Titel volgende bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
@@ -175,10 +179,11 @@ Hier korte omschrijving (met indien nodig een afbeelding)
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### De gebruikers kunnen sommige afbeeldingen en icoontjes niet begrijpen met de screenreader. 
+Sommige afbeeldingen en icootnjes hebben de naam van hun functie.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+De alt van afbeeldingen en icoontjes kunnen een naam krijgen dat de inhoud van de afbeelding beschrijft in plaats een naam van de functie. Hierdoor kunnen bijvoorbeeld blinde mensen de afbeelding begrijpen.
 
 </details>
 
