@@ -173,10 +173,10 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 Ik heb geen idee hoe dit opgelost kan worden.
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### De states kunnen wat meer feedback krijgen. 
+Bij sommige states zoals de hover state zou er feedback kunnen komen.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Ik heb geen idee hoe dit opgelost kan worden.
 
 
 #### De gebruikers kunnen sommige afbeeldingen en icoontjes niet begrijpen met de screenreader. 
